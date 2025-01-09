@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29b15b"
+    tools:context=".MainActivity">
+
+    <!--TextView: display "title"-->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="12 Illustrations Showing How Introverts and Extroverts See the World"
+        android:textColor="#f1e61a"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--ImageView: display "illustration" image-->
+    <ImageView
+        android:id="@+id/illustrationImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/title_text"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="image illustrated"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image01" />
+
+    <!--TextView: display "caption" below illustration image-->
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/illustrationImage"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="To extroverts and introverts, parties are completely different events"
+        android:textColor="#FFFFFFFF"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <!--Button: "NEXT"-->
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="#053b05"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="Next"
+        android:textColor="#efd514"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!--Button: "NEXT"-->
+    <Button
+        android:id="@+id/previousBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:background="#053b05"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="Previous"
+        android:textColor="#efd514"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</RelativeLayout>
