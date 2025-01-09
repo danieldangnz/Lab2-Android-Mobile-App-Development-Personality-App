@@ -16,3 +16,7 @@ Java coding in Android:
 - Java array of data: 1D-array
 - Use Resources: Colors & Strings
 - Internet connections in Android
+
+![lab2-personality difference app 2 - experiement](https://github.com/user-attachments/assets/d5e08551-e58f-4930-8d7a-1ac5138d6fbb)
+
+![lab2-personality difference app 1](https://github.com/user-attachments/assets/f46d2ca1-6161-4f83-93be-df588dcd838c)
