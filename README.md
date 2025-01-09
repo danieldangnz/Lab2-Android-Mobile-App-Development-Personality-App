@@ -1,5 +1,7 @@
 Practical Lab 2: Personality Difference App
-In this practical lab, students will learn how to develop a simple app by converting an article (“12 Illustrations Showing How Introverts and Extroverts See the World”) 
+
+In this practical lab, students will learn how to develop a simple app by converting an article 
+(“12 Illustrations Showing How Introverts and Extroverts See the World”) 
 into an Android Mobile App.
 
 In this lab, students learn:
