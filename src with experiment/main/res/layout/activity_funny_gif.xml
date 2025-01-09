@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    tools:context=".FunnyGif">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="11 of the funniest GIFs of all time"
+        android:textColor="#f1e61a"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--Add another linearlayout inside containing the ImageView and Caption below-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <VideoView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/gifView"/>
+
+        <!--
+          <WebView
+            android:id="@+id/gifView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="gif images"
+            android:scaleType="fitCenter"
+            android:src="@drawable/image01" />
+        -->
+
+
+
+        <!--TextView: display caption-->
+        <TextView
+            android:id="@+id/caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="2 Birds 1 Almond"
+            android:textColor="#FFFFFFFF"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <!--Add a relativelayout containing two buttons: "PREVIOUS" and "NEXT" -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--Add the button "PREVIOUS"-->
+        <Button
+            android:id="@+id/previousBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:gravity="center"
+            android:padding="20sp"
+            android:text="Previous"
+            android:textColor="#efd514"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!--Add the button "NEXT"-->
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:gravity="center"
+            android:padding="20sp"
+            android:text="Next"
+            android:textColor="#efd514"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

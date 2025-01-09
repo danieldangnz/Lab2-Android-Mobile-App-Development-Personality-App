@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Funniest GIFs of all time</string>
+    <!--<string name="app_name">Introvert vs Extrovert</string>-->
+
+    <!--Declare an array of 12 captions-->
+    <string-array name="caption_array1">
+        <!--Caption 1-->
+        <item>To extroverts and introverts, parties are completely different events</item>
+        <!--Caption 2-->
+        <item>A conversation with a stranger can be a challenge to an introvert, whereas an extrovert takes up any opportunity to socialize</item>
+        <!--Caption 3-->
+        <item>This is true of conversations both face-to-face and over the telephone</item>
+        <!--Caption 4-->
+        <item>Meeting a chatty person in the elevator is a great start to the day for an extrovert. But an introvert dreams of riding it alone</item>
+        <!--Caption 5-->
+        <item>A large office space is like heaven to an extrovert, but it’s like being in a zoo for an introvert</item>
+        <!--Caption 6-->
+        <item>Both have their own strengths at work</item>
+        <!--Caption 7-->
+        <item>They understand leadership differently</item>
+        <!--Caption 8-->
+        <item>Home for an introvert is the best place on Earth. If you’re an extrovert, it’s just a place to catch your breath</item>
+        <!--Caption 9-->
+        <item>After an entire day of socializing, an extrovert is still full of energy. An introvert doesn’t feel the same</item>
+        <!--Caption 10-->
+        <item>Which is why they see the subway trip home somewhat differently</item>
+        <!--Caption 11-->
+        <item>The same is true of their ideal evening after a hard day</item>
+        <!--Caption 12-->
+        <item>On the other hand, both look forward to relaxing at the weekend... but in their own way!</item>
+    </string-array>
+
+    <!--Declare an array of 10 trick titles-->
+    <string-array name="trick_title_array">
+        <!--Trick title 1-->
+        <item>1-Lost items</item>
+        <!--Trick title 2-->
+        <item>2-Pseudo fortune-telling</item>
+        <!--Trick title 3-->
+        <item>3-Private taxis</item>
+        <!--Trick title 4-->
+        <item>4-Fares</item>
+        <!--Trick title 5-->
+        <item>5-Dishonest seller</item>
+        <!--Trick title 6-->
+        <item>6-Unofficial ticket sales</item>
+        <!--Trick title 7-->
+        <item>7-A call from reception</item>
+        <!--Trick title 8-->
+        <item>8-Rental housing</item>
+        <!--Trick title 9-->
+        <item>9-New friends</item>
+        <!--Trick title 10-->
+        <item>10-Asking to make a call</item>
+    </string-array>
+
+    <!--Declare an array of 10 captions-->
+    <string-array name="caption_array">
+        <!--Caption 1-->
+        <item>Imagine yourself walking quietly through an unfamiliar city. You suddenly notice that on the sidewalk there is a ring, a bracelet, or some other rather expensive item. You pick it up, and at this very moment someone comes up to you and starts strongly encouraging you not to look for the owner (they say it\’s practically impossible) but to split the value of the item in half.\n
+\nSince he does not have any cash with him, the stranger asks you to give him a certain amount, and you keep the found piece for yourself. <b>Later, however, it turns out that the jewelry is fake and worthless and that you gave a large sum of money to a fraudster.</b></item>
+        <!--Caption 2-->
+        <item>In many countries of the world, local residents earn their living by pseudo fortune-telling with twigs, valuable personal items, or money.\n
+            \nBe vigilant. Do not be fooled by such cheap tricks even if the false fortune-teller tries to convince you that they can save you from financial collapse or something worse. <b>Most likely, she will simply steal your money or valuables, skillfully substituting them with fakes</b>. And in the case of the twigs and other nonsense, she will simply try to get as much money out of you as possible for her very dubious services.</item>
+        <!--Caption 3-->
+        <item>If you visit a different city or a foreign country, it is advisable to book a transfer in advance with a trusted company. But if this has not been prearranged, <b>use public transport (metro, trams, buses), or book a taxi with a large company that tells you the fees before the trip.</b>\n
+Do not trust private cabbies as they can overcharge or deliberately take you on the longest possible route.</item>
+        <!--Caption 4-->
+        <item>Nevertheless, you should keep your guard up on all forms of private and public transport. The driver might give you your change in the local currency, and it can be worth a lot less than the dollars or euros that you paid with.\n
+\nBe careful.</item>
+        <!--Caption 5-->
+        <item>Such crooks can be found in small shops or street tents with souvenirs. The dishonest seller will be doing multiple things at the same time: talking on the phone, bargaining with 3 customers, taking money, and giving change. <b>And in the process, he can write down your credit card information</b> if you decide to pay with a card. Or he\’ll just give you less change, hoping that he managed to distract you.\n
+\nAnother situation is possible: when one vendor captures your attention with a conversation, the other charges you and either finds out your card information or gives less change than he has to.</item>
+        <!--Caption 6-->
+        <item>When you buy tickets to the theatre, to a concert, to a museum, or anywhere else from street vendors, <b>there is a good chance that the ticket will turn out to be fake</b>. Even if the ticket is real, you might pay a much higher price for it than you would if you bought it officially.\n
+\nIt is better to purchase tickets at official ticket offices or from the website of the company.</item>
+        <!--Caption 7-->
+        <item>When you stay at a hotel, someone might call your room and, after introducing themselves as a member of the guest service team, ask for your credit card details to pay for services.\n
+\n<b>Never give this information to anyone</b>. If you are insistently pushed to do so, tell them that you don\’t mind going down to reception and paying for the services in person. Most likely, the scammer will back off.\n
+\nIt is also worth noting that in decent hotels payment is made at the time of departure when you hand over the room keys.
+</item>
+        <!--Caption 8-->
+        <item>Sometimes tourists prefer not to stay in hotels but to rent apartments or even entire houses. There is a high probability that the owner of the property will try to make you pay a huge additional charge for \”damaging property.\”\n
+\n<b>To prevent this, sign an agreement with the owner of the apartment before moving in</b>, which will stipulate all the information about damage to property and any additional fees.
+</item>
+        <!--Caption 9-->
+        <item>This method is very common in warmer countries where tourists live not in the main building of the hotel but in bungalows. Scammers get acquainted with you, and you have fun together for a few evenings. Then one day they will find out the exact time you will be away from your room, and they break in. As a result, you risk losing all your money and valuables.\n
+\nTo avoid this, you should choose hotel rooms or bungalows that have a safe in them. And try not to reveal too much information about your vacation plans to unfamiliar people.</item>
+        <!--Caption 10-->
+        <item>A very frightened or puzzled person may approach you on the street. He will ask you to let him make a call because he lost his phone, or he might tell you that he was robbed. As a result, the call will cost you a fortune. The swindler will simply call a prepared number, and you will be charged a ton of money for this \”conversation.\” And this money is most likely going to the thief\’s account.\n
+\nTo save your money, use plans that do not allow you to have a negative balance. If you lose or lend your phone, you lose the funds that were on your account, but at least you will not have a huge debt to deal with.</item>
+    </string-array>
+
+
+</resources>
